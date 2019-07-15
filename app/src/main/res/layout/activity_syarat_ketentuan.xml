@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SyaratKetentuan"
+    android:background="@color/colorPutih">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_marginTop="-56dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="6">
+        <FrameLayout
+            android:id="@+id/btn_kembali"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:background="@drawable/button2">
+
+            <ImageButton
+                android:clickable="false"
+                android:layout_gravity="center"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/ic_chevron_left_black_24dp" />
+        </FrameLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:fontFamily="@font/opensans_regular"
+            android:gravity="center_vertical"
+            android:text="Syarat &amp; Ketentuan"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorCard" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingHorizontal="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SYARAT DAN KETENTUAN UNTUK PENGGUNA\nSRIBU SAKU"
+        android:textSize="14dp"
+        android:textColor="@color/colorHitamText"
+        android:fontFamily="@font/opensans_bold"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dalam menggunakan layanan pembayaran Sribu Saku, Pengguna setuju dan mengikatkan diri untuk mematuhi Syarat dan Ketentuan Pengguna Sribu Saku sebagai berikut :"
+            android:textSize="14dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_regular"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I. DEFINISI"
+            android:textSize="14dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1) SRIBU SAKU adalah aplikasi pembayaran online yang di dirikan oleh Lembaga Amil Zakat Infaq dan Sodaqoh Nahdlatul Ulama (LAZISNU)"
+            android:textSize="14dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_regular"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2) Nomor Ponsel adalah nomor telepon seluler atau ponsel pintar (smartphone) yang digunakan oleh pengguna untuk mengakses layanan Sribu Saku"
+            android:textSize="14dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_regular"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3) Pengguna adalah pengguna Sribu Saku dan pemilik akun Sribu Saku"
+            android:textSize="14dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_regular"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4) Perangkat Telekomunikasi adalah ponsel pintar, perangkat gengam, komputer pribadi
+berbentuk tablet atau perangkat telekomunikasi lainnya yang teknologinya mendukung layanan
+Sribu Saku dan menggunakan sistem operasi Android termasuk sistem operasi lain yang akan ada
+di masa mendatang yang memungkinkan Pengguna untuk menggunakan layanan Sribu Saku."
+            android:textSize="14dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_regular"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5) Transaksi adalah transaksi yang dapat dilakukan oleh Pengguna
+melalui layanan Sribu Saku"
+            android:textSize="14dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_regular"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6) Transaksi Top-Up adalah transaksi penambahan saldo"
+            android:textSize="14dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_regular"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="II. KETENTUAN UMUM"
+            android:textSize="14dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1) Sribu Saku merupakan aplikasi pembayaran online yang dapat digunakan
+ oleh Pengguna melalui Perangkat Telekomunikasi"
+            android:textSize="14dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_regular"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2) Seluruh Pengguna dengan Nomor Ponsel dari operator manapun
+baik pascabayar atau prabayar dapat menjadi Pengguna Sribu Saku"
+            android:textSize="14dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_regular"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3) Pengguna dapat melakukan transaksi apabila saldo mencukupi"
+            android:textSize="14dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_regular"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="III. TRANSAKSI DENGAN SRIBU SAKU"
+            android:textSize="14dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_bold"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pengguna Sribu Saku dapat melakukan Transaksi sebagai berikut :"
+            android:textSize="14dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_regular"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1) Top Up yaitu melakukan penambahan saldo"
+            android:textSize="14dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_regular"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2) Pembelian atau isi ulang pulsa"
+            android:textSize="14dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_regular"/>
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3) Cek saldo dapat dilihat pada tampilan utama"
+            android:textSize="14dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_regular"/>
+
+
+
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

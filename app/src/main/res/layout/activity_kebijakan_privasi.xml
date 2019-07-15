@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KebijakanPrivasi"
+    android:background="@color/colorPutih"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@color/colorPrimary"/>
+
+            <LinearLayout
+                android:layout_marginTop="-56dp"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="6">
+                <FrameLayout
+                    android:id="@+id/btn_kembali"
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button2">
+
+                    <ImageButton
+                        android:clickable="false"
+                        android:layout_gravity="center"
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:background="@drawable/ic_chevron_left_black_24dp" />
+                </FrameLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:fontFamily="@font/opensans_regular"
+                    android:gravity="center_vertical"
+                    android:text="Kebijakan Privasi"
+                    android:textSize="16dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorCard" />
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="56dp"
+                    android:layout_weight="1"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:paddingHorizontal="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kebijakan Privasi sehubungan Penggunaan Data Pribadi Pengguna Sribu Saku"
+                    android:textSize="14dp"
+                    android:textColor="@color/colorHitamText"
+                    android:fontFamily="@font/opensans_bold"/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kebijakan privasi berlaku untuk layanan yang di sediakan oleh Sribu Saku
+dan memuat bagaimana kami dapat mengumpulkan data pribadi anda,terkait akses anda atas dan penggunaan aplikasi Sribu Saku"
+                    android:textSize="14dp"
+                    android:textColor="@color/colorHitamText"
+                    android:fontFamily="@font/opensans_regular"/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sebagaimana dituangkan lebih lanjut dalam Syarat dan Ketentuan
+untuk Pengguna Sribu Saku, Aplikasi Sribu Saku adalah aplikasi layanan menyeluruh gaya hidup untuk Pengguna.
+Aplikasi Sribu Saku menyediakan layanan kepada pengguna terdaftar untuk ikut serta dalam berbagai aktivitas dan melakukan pembayaran."
+                    android:textSize="14dp"
+                    android:textColor="@color/colorHitamText"
+                    android:fontFamily="@font/opensans_regular"/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aplikasi Sribu Saku tidak mengenakan biaya apapun kepada pengguna terdaftar
+. Setiap orang dapat memiliki akun dengan mendaftar."
+                    android:textSize="14dp"
+                    android:textColor="@color/colorHitamText"
+                    android:fontFamily="@font/opensans_regular"/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aplikasi Sribu Saku tidak mengenakan biaya apapun kepada pengguna terdaftar
+. Setiap orang dapat memiliki akun dengan mendaftar."
+                    android:textSize="14dp"
+                    android:textColor="@color/colorHitamText"
+                    android:fontFamily="@font/opensans_regular"/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="A.PENGUMPULAN DATA PRIBADI"
+                    android:textSize="14dp"
+                    android:textColor="@color/colorHitamText"
+                    android:fontFamily="@font/opensans_bold"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kami dapat memperoleh Data Pribadi dari berbagai sumber
+(a.i. dari anda atau pihak ketiga) termasuk :"
+                    android:textSize="14dp"
+                    android:textColor="@color/colorHitamText"
+                    android:fontFamily="@font/opensans_regular"/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Informasi yang didapat (langsung maupun tidak langsung)
+tentang komputer, telepon gengam, ataupun perangkat keras lainnya milik anda yang akan dan mengakses
+aplikasi Sribu Saku (termasuk Alamat IP anda, lokasi geografis, tipe platform peramban dan versinya,
+penyedia layanan internet, sistem operasi, halaman reverensi / atau halaman keluar, lamanya waktu berunjung
+/penggunaan, halaman yang dilihat, apapun kata pencarian yang anda gunakan)(Informasi Perangkat)"
+                    android:textSize="14dp"
+                    android:textColor="@color/colorHitamText"
+                    android:fontFamily="@font/opensans_regular"/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Informasi yang di peroleh ketika anda mendaftar dengan akun Sribu Saku sebagai pengguna layanan Sribu Saku (Informasi Pendaftaran)"
+                    android:textSize="14dp"
+                    android:textColor="@color/colorHitamText"
+                    android:fontFamily="@font/opensans_regular"/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="B. PENGGUNAAN DATA PRIBADI"
+                    android:textSize="14dp"
+                    android:textColor="@color/colorHitamText"
+                    android:fontFamily="@font/opensans_bold"/>
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kami dapat menggunakan Data Pribadi yang kami peroleh
+tentang anda untuk tujuan berikut :"
+                    android:textSize="14dp"
+                    android:textColor="@color/colorHitamText"
+                    android:fontFamily="@font/opensans_regular"/>
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="1. Melakukan pengungkapan yang diperlukan oleh setiap hukum dan peraturan
+di negara yang berlaku untuk kami atau petugas pemerintah termasuk setiap asosiasi kartu atau jaringan."
+                    android:textSize="14dp"
+                    android:textColor="@color/colorHitamText"
+                    android:fontFamily="@font/opensans_regular"/>
+
+                <TextView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2. Pengungkapan yang dilakukan untuk menghindari kerugian yang membahayakan atau kerugian keuangan, untuk melapor
+aktivitas ilegal yang mencurigakan atau terkait tuntutan atau potensi tuntutan kepada kami"
+                    android:textSize="14dp"
+                    android:textColor="@color/colorHitamText"
+                    android:fontFamily="@font/opensans_regular"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Comingsoon">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_marginTop="-56dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="6">
+        <FrameLayout
+            android:id="@+id/btn_kembali_comingsoon"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:clickable="false"
+                android:layout_gravity="center"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/ic_chevron_left_black_24dp" />
+        </FrameLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:fontFamily="@font/opensans_regular"
+            android:gravity="center_vertical"
+            android:text="Coming Soon"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorCard" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <View
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_stopwatch"/>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coming Soon"
+        android:textSize="20dp"/>
+</LinearLayout>

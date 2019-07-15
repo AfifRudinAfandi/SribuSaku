@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FAQFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="25dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensans_bold"
+                        android:text="FAQ Sribu Saku!"
+                        android:textColor="@color/colorHitamText"
+                        android:textSize="20dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/btn_faq_beli"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_button_item"
+                android:gravity="center_vertical"
+                android:layout_marginHorizontal="16dp"
+                android:weightSum="6">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Apa itu Sribu Saku ?"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorHitamText"
+                    android:fontFamily="@font/opensans_regular"
+                    android:layout_weight="5"/>
+                <FrameLayout
+                    android:id="@+id/btn_back"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:id="@+id/ic_back"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_chevron_right_black_24dp"
+                        android:clickable="false" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/framebeli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"/>
+
+            <LinearLayout
+                android:id="@+id/btn_faq_bayar"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/rounded_button_item"
+                android:gravity="center_vertical"
+                android:layout_marginHorizontal="16dp"
+                android:weightSum="6">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="20dp"
+                    android:text="Kemana donasi disalurkan ?"
+                    android:textSize="15dp"
+                    android:textColor="@color/colorHitamText"
+                    android:fontFamily="@font/opensans_regular"
+                    android:layout_weight="5"/>
+                <FrameLayout
+                    android:id="@+id/btn_back2"
+                    android:layout_width="0dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/ic_chevron_right_black_24dp"
+                        android:clickable="false" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/framebayar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"/>
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/btn_faq_zakat"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:background="@drawable/rounded_button_item"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:layout_marginHorizontal="16dp"-->
+                <!--android:weightSum="6">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:text="Zakat &amp; Donasi"-->
+                    <!--android:textSize="15dp"-->
+                    <!--android:textColor="@color/colorHitamText"-->
+                    <!--android:fontFamily="@font/opensans_regular"-->
+                    <!--android:layout_weight="5"/>-->
+                <!--<FrameLayout-->
+                    <!--android:id="@+id/btn_back3"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="60dp"-->
+                    <!--android:layout_weight="1">-->
+
+                    <!--<ImageButton-->
+                        <!--android:layout_width="24dp"-->
+                        <!--android:layout_height="24dp"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:background="@drawable/ic_chevron_right_black_24dp"-->
+                        <!--android:clickable="false" />-->
+                <!--</FrameLayout>-->
+            <!--</LinearLayout>-->
+
+            <!--<FrameLayout-->
+                <!--android:id="@+id/framezakat"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginHorizontal="16dp"/>-->
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/btn_faq_topup"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal"-->
+                <!--android:background="@drawable/rounded_button_item"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:layout_marginHorizontal="16dp"-->
+                <!--android:weightSum="6">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:text="Top Up"-->
+                    <!--android:textSize="15dp"-->
+                    <!--android:textColor="@color/colorHitamText"-->
+                    <!--android:fontFamily="@font/opensans_regular"-->
+                    <!--android:layout_weight="5"/>-->
+                <!--<FrameLayout-->
+                    <!--android:id="@+id/btn_back4"-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="60dp"-->
+                    <!--android:layout_weight="1">-->
+
+                    <!--<ImageButton-->
+                        <!--android:layout_width="24dp"-->
+                        <!--android:layout_height="24dp"-->
+                        <!--android:layout_gravity="center"-->
+                        <!--android:background="@drawable/ic_chevron_right_black_24dp"-->
+                        <!--android:clickable="false" />-->
+                <!--</FrameLayout>-->
+            <!--</LinearLayout>-->
+
+            <!--<FrameLayout-->
+                <!--android:id="@+id/frametopup"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginHorizontal="16dp"/>-->
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</FrameLayout>
+
+
+<!--<LinearLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:orientation="vertical">-->
+
+<!--<FrameLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginHorizontal="16dp"-->
+    <!--android:layout_marginTop="25dp">-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:fontFamily="@font/opensans_bold"-->
+            <!--android:text="FAQ Sribu Saku!"-->
+            <!--android:textColor="@color/colorHitamText"-->
+            <!--android:textSize="20dp" />-->
+    <!--</LinearLayout>-->
+<!--</FrameLayout>-->
+
+<!--<LinearLayout-->
+    <!--android:id="@+id/btn_faq_beli"-->
+    <!--android:layout_marginTop="25dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:background="@drawable/rounded_button_item"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:layout_marginHorizontal="16dp"-->
+    <!--android:weightSum="6">-->
+
+    <!--<TextView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingLeft="20dp"-->
+        <!--android:text="Donas"-->
+        <!--android:textSize="15dp"-->
+        <!--android:textColor="@color/colorHitamText"-->
+        <!--android:fontFamily="@font/opensans_regular"-->
+        <!--android:layout_weight="5"/>-->
+    <!--<FrameLayout-->
+        <!--android:id="@+id/btn_back"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_weight="1">-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/ic_back"-->
+            <!--android:layout_width="24dp"-->
+            <!--android:layout_height="24dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@drawable/ic_chevron_right_black_24dp"-->
+            <!--android:clickable="false" />-->
+    <!--</FrameLayout>-->
+<!--</LinearLayout>-->
+
+<!--<FrameLayout-->
+    <!--android:id="@+id/framebeli"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginHorizontal="16dp"/>-->
+
+<!--<LinearLayout-->
+    <!--android:id="@+id/btn_faq_bayar"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:background="@drawable/rounded_button_item"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:layout_marginHorizontal="16dp"-->
+    <!--android:weightSum="6">-->
+
+    <!--<TextView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingLeft="20dp"-->
+        <!--android:text="Pembayaran"-->
+        <!--android:textSize="15dp"-->
+        <!--android:textColor="@color/colorHitamText"-->
+        <!--android:fontFamily="@font/opensans_regular"-->
+        <!--android:layout_weight="5"/>-->
+    <!--<FrameLayout-->
+        <!--android:id="@+id/btn_back2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_weight="1">-->
+
+        <!--<ImageButton-->
+            <!--android:layout_width="24dp"-->
+            <!--android:layout_height="24dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@drawable/ic_chevron_right_black_24dp"-->
+            <!--android:clickable="false" />-->
+    <!--</FrameLayout>-->
+<!--</LinearLayout>-->
+
+<!--<FrameLayout-->
+    <!--android:id="@+id/framebayar"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginHorizontal="16dp"/>-->
+
+<!--<LinearLayout-->
+    <!--android:id="@+id/btn_faq_zakat"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:background="@drawable/rounded_button_item"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:layout_marginHorizontal="16dp"-->
+    <!--android:weightSum="6">-->
+
+    <!--<TextView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingLeft="20dp"-->
+        <!--android:text="Zakat &amp; Donasi"-->
+        <!--android:textSize="15dp"-->
+        <!--android:textColor="@color/colorHitamText"-->
+        <!--android:fontFamily="@font/opensans_regular"-->
+        <!--android:layout_weight="5"/>-->
+    <!--<FrameLayout-->
+        <!--android:id="@+id/btn_back3"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_weight="1">-->
+
+        <!--<ImageButton-->
+            <!--android:layout_width="24dp"-->
+            <!--android:layout_height="24dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@drawable/ic_chevron_right_black_24dp"-->
+            <!--android:clickable="false" />-->
+    <!--</FrameLayout>-->
+<!--</LinearLayout>-->
+
+<!--<FrameLayout-->
+    <!--android:id="@+id/framezakat"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginHorizontal="16dp"/>-->
+
+<!--<LinearLayout-->
+    <!--android:id="@+id/btn_faq_topup"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:background="@drawable/rounded_button_item"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:layout_marginHorizontal="16dp"-->
+    <!--android:weightSum="6">-->
+
+    <!--<TextView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingLeft="20dp"-->
+        <!--android:text="Top Up"-->
+        <!--android:textSize="15dp"-->
+        <!--android:textColor="@color/colorHitamText"-->
+        <!--android:fontFamily="@font/opensans_regular"-->
+        <!--android:layout_weight="5"/>-->
+    <!--<FrameLayout-->
+        <!--android:id="@+id/btn_back4"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="60dp"-->
+        <!--android:layout_weight="1">-->
+
+        <!--<ImageButton-->
+            <!--android:layout_width="24dp"-->
+            <!--android:layout_height="24dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@drawable/ic_chevron_right_black_24dp"-->
+            <!--android:clickable="false" />-->
+    <!--</FrameLayout>-->
+<!--</LinearLayout>-->
+
+<!--<FrameLayout-->
+    <!--android:id="@+id/frametopup"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginHorizontal="16dp"/>-->
+
+
+<!--</LinearLayout>-->

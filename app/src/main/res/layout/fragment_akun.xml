@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AkunFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:background="@color/colorPrimary"/>
+
+        <LinearLayout
+            android:layout_marginTop="-56dp"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:fontFamily="@font/opensans_bold"
+                android:gravity="center_vertical"
+                android:text="Akun"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorCard" />
+            <View
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="4.5"/>
+        </LinearLayout>
+
+        <FrameLayout
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="30dp"
+            android:background="@color/colorPutih">
+        <TextView
+            android:id="@+id/namapengguna"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Afif Rudin Afandi"
+            android:textSize="16dp"
+            android:fontFamily="@font/opensans_bold"/>
+        <TextView
+            android:layout_marginTop="30dp"
+            android:id="@+id/txt_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NomorPengguna"
+            android:textSize="12dp"
+            android:fontFamily="@font/opensans_regular"/>
+
+        </FrameLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAbuAbu"/>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAbuAbu"/>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:paddingHorizontal="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="20"
+            android:background="@color/colorPutih">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="15"
+                android:text="Saldo"
+                android:textSize="16dp"
+                android:textColor="@color/colorHitamText"
+                android:fontFamily="@font/opensans_regular"/>
+
+            <TextView
+                android:id="@+id/btn_isisaldo"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="5"
+                android:textColor="@color/colorPrimary"
+                android:text="+ Isi Saldo"
+                android:fontFamily="@font/opensans_regular"
+                android:background="@drawable/button4"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAbuAbu"/>
+        <LinearLayout
+            android:id="@+id/syarat"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="20"
+            android:background="@color/colorPutih">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Syarat &amp; Ketentuan"
+                android:textSize="16dp"
+                android:textColor="@color/colorHitamText"
+                android:fontFamily="@font/opensans_regular"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAbuAbu"/>
+        <LinearLayout
+            android:id="@+id/privasi"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="20"
+            android:background="@color/colorPutih">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kebijakan Privasi"
+                android:textSize="16dp"
+                android:textColor="@color/colorHitamText"
+                android:fontFamily="@font/opensans_regular"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAbuAbu"/>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAbuAbu"/>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:paddingHorizontal="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="20"
+            android:background="@color/colorPutih">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bantuan"
+                android:textSize="16dp"
+                android:textColor="@color/colorHitamText"
+                android:fontFamily="@font/opensans_regular"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAbuAbu"/>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:paddingHorizontal="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="20"
+            android:background="@color/colorPutih">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="16"
+                android:text="App Version"
+                android:textSize="16dp"
+                android:textColor="@color/colorHitamText"
+                android:fontFamily="@font/opensans_regular"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:text="0.1 beta"
+                android:fontFamily="@font/opensans_regular"
+                android:textColor="@color/colorAbuDarkTitik"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAbuAbu"/>
+        <LinearLayout
+            android:id="@+id/btn_logout"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="20"
+            android:background="@color/colorPutih">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Keluar"
+                android:textSize="16dp"
+                android:textColor="@color/colorHitamText"
+                android:fontFamily="@font/opensans_regular"/>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorAbuAbu"/>
+    </LinearLayout>
+    </ScrollView>
+
+    <!--<Button-->
+        <!--style="?android:attr/borderlessButtonStyle"-->
+        <!---->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_marginTop="70dp"-->
+        <!--android:textColor="@color/colorPutih"-->
+        <!--android:textSize="16dp"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:fontFamily="@font/opensans_regular"-->
+        <!--android:background="@drawable/button3"-->
+        <!--android:text="Keluar"/>-->
+
+</FrameLayout>

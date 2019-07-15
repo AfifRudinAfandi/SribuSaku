@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ZakatActivity"
+    android:background="@color/colorPutih"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_marginTop="-56dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="6">
+        <FrameLayout
+            android:id="@+id/btn_kembali_lainnya"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:background="@drawable/button2">
+
+            <ImageButton
+                android:clickable="false"
+                android:layout_gravity="center"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/ic_chevron_left_black_24dp" />
+        </FrameLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:fontFamily="@font/opensans_regular"
+            android:gravity="center_vertical"
+            android:text="Zakat &amp; Donasi"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorCard" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <FrameLayout
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="100dp">
+        <View
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_icon_insurance"/>
+        </FrameLayout>
+        <FrameLayout
+            android:padding="10dp"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="8.5">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bangkitkan semangat sudara-saudara kita yang sedang tertimpa musibah dan jadilah oase bagi hidup mereka"
+                android:textColor="@color/colorHitamText"
+                android:textSize="14dp"
+                android:fontFamily="@font/opensans_light"/>
+
+        </FrameLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorAbuDarkTitik"/>
+    <TextView
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INFO DONATUR"
+        android:textSize="10dp"
+        android:textColor="@color/colorAbuDark"/>
+
+
+        <TextView
+            android:id="@+id/test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:visibility="gone"/>
+    <FrameLayout
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/anonim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Anonim"
+            android:singleLine="true"/>
+
+        <TextView
+
+            android:layout_marginTop="55dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Donasi"
+            android:textSize="12dp"
+            android:textColor="@color/colorAbuDark"
+            android:fontFamily="@font/opensans_regular"/>
+
+        <Spinner
+            android:layout_marginTop="80dp"
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/info_arrays"
+            android:background="@drawable/bg_edittext"/>
+        <TextView
+            android:layout_marginTop="140dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah Donasi"
+            android:textColor="@color/colorBiruIc"
+            />
+
+        <EditText
+            android:id="@+id/et_nominal"
+            android:layout_marginTop="165dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="000"/>
+
+        <Button
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginTop="230dp"
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bayar Donasi"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPutih"
+            android:fontFamily="@font/opensans_regular"
+            android:textSize="16dp"
+            android:background="@drawable/button3"/>
+    </FrameLayout>
+
+
+    <!--<View-->
+        <!--android:layout_marginTop="30dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@color/colorAbuDarkTitik"/>-->
+    <!--<LinearLayout-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="10">-->
+
+        <!--<FrameLayout-->
+            <!--android:layout_weight="1.5"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="100dp">-->
+            <!--<View-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_width="30dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:background="@drawable/ic_icon_insurance"/>-->
+        <!--</FrameLayout>-->
+        <!--<FrameLayout-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:layout_weight="8.5">-->
+
+            <!--<TextView-->
+                <!--android:layout_gravity="center"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Melalui Zakat Anda, membantu kami untuk memberikan senyum kepada mereka"-->
+                <!--android:textColor="@color/colorHitamText"-->
+                <!--android:textSize="14dp"-->
+                <!--android:fontFamily="@font/opensans_light"/>-->
+
+        <!--</FrameLayout>-->
+    <!--</LinearLayout>-->
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:background="@color/colorAbuDarkTitik"/>-->
+    <!--<TextView-->
+        <!--android:layout_marginTop="6dp"-->
+        <!--android:layout_marginLeft="16dp"-->
+        <!--android:layout_marginBottom="25dp"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="INFO DONATUR"-->
+        <!--android:textSize="10dp"-->
+        <!--android:textColor="@color/colorAbuDark"/>-->
+
+    <!--<FrameLayout-->
+        <!--android:layout_marginHorizontal="16dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/nama"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Nama Lengkap"-->
+            <!--android:singleLine="true"/>-->
+        <!---->
+        <!--<TextView-->
+            <!--android:layout_marginTop="55dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Jumlah Donasi"-->
+            <!--android:textColor="@color/colorBiruIc"-->
+            <!--/>-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/et_jumlahzakat"-->
+            <!--android:layout_marginTop="80dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="number"-->
+            <!--android:hint="000"/>-->
+
+        <!--<Button-->
+            <!--android:layout_marginBottom="40dp"-->
+            <!--android:layout_marginTop="180dp"-->
+            <!--android:id="@+id/btnSubmit2"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Bayar Donasi"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="@color/colorPutih"-->
+            <!--android:fontFamily="@font/opensans_regular"-->
+            <!--android:textSize="16dp"-->
+            <!--android:background="@drawable/button3"/>-->
+    <!--</FrameLayout>-->
+
+
+
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
+

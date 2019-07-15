@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Topup">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_marginTop="-56dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="6">
+        <FrameLayout
+            android:id="@+id/btn_kembali_lainnya"
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:background="@drawable/button2">
+
+            <ImageButton
+                android:clickable="false"
+                android:layout_gravity="center"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/ic_chevron_left_black_24dp" />
+        </FrameLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:fontFamily="@font/opensans_regular"
+            android:gravity="center_vertical"
+            android:text="Top Up"
+            android:textSize="16dp"
+            android:textAlignment="center"
+            android:textColor="@color/colorCard" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="56dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jumlah Top Up"
+        android:textSize="14dp"
+        android:textColor="@color/colorHitamText"
+        android:fontFamily="@font/opensans_regular"/>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="16dp"
+        android:id="@+id/et_topup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:singleLine="true"
+        android:visibility="visible" />
+    <Button
+        style="?android:attr/borderlessButtonStyle"
+        android:id="@+id/btn_depo"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Ambil Tiket"
+        android:textAllCaps="false"
+        android:fontFamily="@font/opensans_regular"
+        android:textColor="@color/colorPutih"
+        android:background="@drawable/rounded_button_hijau"/>
+
+    <FrameLayout
+        android:id="@+id/frame_topup"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></FrameLayout>
+
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="nomor"/>
+
+
+    <FrameLayout
+        android:id="@+id/info_topup"
+        android:layout_marginHorizontal="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <TextView
+            android:id="@+id/jumlahtf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jumlah"
+            android:textSize="16dp"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_regular"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Silakan Transfer ke Rekening : \nMANDIRI : 1780001917851
+            \nBRI : 004101001883306\nBCA : 3300580733\nAtas Nama : MUCHAMMAD AFIF RUDIN"
+            android:textColor="@color/colorHitamText"
+            android:fontFamily="@font/opensans_regular"
+            android:textSize="16dp"/>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

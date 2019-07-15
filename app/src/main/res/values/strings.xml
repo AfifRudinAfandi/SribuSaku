@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sribu Saku</string>
+    <string name="title_beranda">Beranda</string>
+    <string name="title_faq">FAQ</string>
+    <string name="title_akun">Akun</string>
+
+
+    <string-array name="info_arrays">
+        <item>10.000 Parsel Lebaran</item>
+        <item>Air Untuk Kehidupan</item>
+        <item>Beasiswa Untuk Negeri</item>
+        <item>Bebaskan Gizi Buruk</item>
+        <item>Peduli Kanker Anak Indonesia</item>
+        <item>Bantu Difable Untuk Mandiri</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#42B549</color>
+    <color name="colorPrimaryDark">#3DA844</color>
+    <color name="colorAccent">#A0A0A0</color>
+    <color name="colorTransparan">#00000000</color>
+    <color name="colorBiru">#2CA9E2</color>
+    <color name="colorBirutrans">#93CBEC</color>
+    <color name="colorAbuAbu">#F4F4F4</color>
+    <color name="colorAbuDark">#707070</color>
+    <color name="colorAbuDarkTitik">#E7E7E7</color>
+    <color name="colorPutih">#ffffff</color>
+    <color name="colorHitam">#000000</color>
+    <color name="colorCard">#FDFDFD</color>
+    <color name="colorHitamText">#4A4A4A</color>
+    <color name="colorBiruIc">#1DAFEC</color>
+    <color name="colorMerahIc">#FE5D55</color>
+    <color name="colorHijauIc">#27F7BA</color>
+    <color name="colorOrangeIc">#FBA134</color>
+    <color name="colorKuneng">#8D8D8D</color>
+    <color name="colorOrange">#A7FFE3</color>
+    <color name="blacktranss">#0C000000</color>
+
+
+</resources>

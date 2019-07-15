@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".LoginActivity"
+android:orientation="vertical"
+android:layout_marginLeft="24dp"
+android:layout_marginRight="24dp"
+android:layout_marginTop="40dp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="@font/opensans_regular"
+    android:text="Masuk"
+    android:textColor="@color/colorHitamText"
+    android:textSize="25dp" />
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor HP"
+        android:textSize="14dp"
+        android:textColor="@color/colorHitamText"
+        android:fontFamily="@font/opensans_regular"/>
+
+    <EditText
+        android:id="@+id/etNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:singleLine="true" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="14dp"
+        android:textColor="@color/colorHitamText"
+        android:fontFamily="@font/opensans_regular"/>
+
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword" />
+<Button
+    android:id="@+id/btn_masuk"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/rounded_button_hijau"
+    android:text="Masuk"
+    android:textColor="@color/colorPutih"/>
+
+<LinearLayout
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:text="Belum punya akun?"
+        android:textSize="12dp"
+        android:textColor="@color/colorAbuDark"
+        android:fontFamily="@font/opensans_regular"/>
+    <TextView
+        android:id="@+id/btn_daftar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Daftar sekarang"
+        android:textSize="12dp"
+        android:textColor="@color/colorHitamText"
+        android:fontFamily="@font/opensans_bold"/>
+
+</LinearLayout>
+</LinearLayout>
